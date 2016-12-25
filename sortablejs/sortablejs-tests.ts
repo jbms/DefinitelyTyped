@@ -1,6 +1,8 @@
 // Examples from project repo used for tests.
 import Sortable = require("sortablejs");
 
+// Ensure it can be imported using ES6 syntax.
+import * as Sortable2 from 'sortablejs';
 
 var simpleList = document.getElementById('list');
 var list = simpleList;

@@ -202,4 +202,8 @@ declare namespace Sortablejs {
          */
         toArray(): string[];
     }
+
+    // Create a namespace with the same name as the Sortable class in order to allow it to be
+    // imported using ES6 module syntax.
+    namespace Sortable {}
 }
