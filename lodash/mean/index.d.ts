@@ -1,2 +1,3 @@
 import { mean } from "../index";
-export = mean;
+declare const x: typeof mean;
+export = x;

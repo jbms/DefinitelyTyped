@@ -1,2 +1,3 @@
 import { join } from "../index";
-export = join;
+declare const x: typeof join;
+export = x;

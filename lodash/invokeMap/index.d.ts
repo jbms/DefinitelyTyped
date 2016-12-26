@@ -1,2 +1,3 @@
 import { invokeMap } from "../index";
-export = invokeMap;
+declare const x: typeof invokeMap;
+export = x;

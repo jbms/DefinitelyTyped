@@ -1,2 +1,3 @@
 import { matches } from "../index";
-export = matches;
+declare const x: typeof matches;
+export = x;

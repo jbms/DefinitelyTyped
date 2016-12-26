@@ -1,2 +1,3 @@
 import { isLength } from "../index";
-export = isLength;
+declare const x: typeof isLength;
+export = x;

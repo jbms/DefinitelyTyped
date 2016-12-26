@@ -1,2 +1,3 @@
 import { last } from "../index";
-export = last;
+declare const x: typeof last;
+export = x;

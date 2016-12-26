@@ -1,2 +1,3 @@
 import { reject } from "../index";
-export = reject;
+declare const x: typeof reject;
+export = x;

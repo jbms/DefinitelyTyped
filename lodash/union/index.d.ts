@@ -1,2 +1,3 @@
 import { union } from "../index";
-export = union;
+declare const x: typeof union;
+export = x;

@@ -1,2 +1,3 @@
 import { head } from "../index";
-export = head;
+declare const x: typeof head;
+export = x;

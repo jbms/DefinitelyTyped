@@ -1,2 +1,3 @@
 import { intersectionBy } from "../index";
-export = intersectionBy;
+declare const x: typeof intersectionBy;
+export = x;

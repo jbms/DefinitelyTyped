@@ -1,2 +1,3 @@
 import { isDate } from "../index";
-export = isDate;
+declare const x: typeof isDate;
+export = x;

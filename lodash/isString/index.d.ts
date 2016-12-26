@@ -1,2 +1,3 @@
 import { isString } from "../index";
-export = isString;
+declare const x: typeof isString;
+export = x;

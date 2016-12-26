@@ -1,2 +1,3 @@
 import { extend } from "../index";
-export = extend;
+declare const x: typeof extend;
+export = x;

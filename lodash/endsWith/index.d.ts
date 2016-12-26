@@ -1,2 +1,3 @@
 import { endsWith } from "../index";
-export = endsWith;
+declare const x: typeof endsWith;
+export = x;

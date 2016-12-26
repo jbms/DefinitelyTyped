@@ -1,2 +1,3 @@
 import { truncate } from "../index";
-export = truncate;
+declare const x: typeof truncate;
+export = x;

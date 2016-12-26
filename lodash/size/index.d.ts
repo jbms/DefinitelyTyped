@@ -1,2 +1,3 @@
 import { size } from "../index";
-export = size;
+declare const x: typeof size;
+export = x;

@@ -1,2 +1,3 @@
 import { create } from "../index";
-export = create;
+declare const x: typeof create;
+export = x;

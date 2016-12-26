@@ -1,2 +1,3 @@
 import { after } from "../index";
-export = after;
+declare const x: typeof after;
+export = x;

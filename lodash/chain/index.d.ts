@@ -1,2 +1,3 @@
 import { chain } from "../index";
-export = chain;
+declare const x: typeof chain;
+export = x;

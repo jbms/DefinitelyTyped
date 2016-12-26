@@ -1,2 +1,3 @@
 import { flattenDeep } from "../index";
-export = flattenDeep;
+declare const x: typeof flattenDeep;
+export = x;

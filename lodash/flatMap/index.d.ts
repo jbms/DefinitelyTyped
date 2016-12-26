@@ -1,2 +1,3 @@
 import { flatMap } from "../index";
-export = flatMap;
+declare const x: typeof flatMap;
+export = x;

@@ -1,2 +1,3 @@
 import { unzip } from "../index";
-export = unzip;
+declare const x: typeof unzip;
+export = x;

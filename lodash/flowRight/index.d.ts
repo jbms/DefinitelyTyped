@@ -1,2 +1,3 @@
 import { flowRight } from "../index";
-export = flowRight;
+declare const x: typeof flowRight;
+export = x;

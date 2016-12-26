@@ -1,2 +1,3 @@
 import { takeRightWhile } from "../index";
-export = takeRightWhile;
+declare const x: typeof takeRightWhile;
+export = x;

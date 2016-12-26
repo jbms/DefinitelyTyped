@@ -1,2 +1,3 @@
 import { noConflict } from "../index";
-export = noConflict;
+declare const x: typeof noConflict;
+export = x;

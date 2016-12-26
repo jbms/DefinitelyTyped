@@ -1,2 +1,3 @@
 import { escape } from "../index";
-export = escape;
+declare const x: typeof escape;
+export = x;

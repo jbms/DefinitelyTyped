@@ -1,2 +1,3 @@
 import { filter } from "../index";
-export = filter;
+declare const x: typeof filter;
+export = x;

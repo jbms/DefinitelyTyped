@@ -1,2 +1,3 @@
 import { isRegExp } from "../index";
-export = isRegExp;
+declare const x: typeof isRegExp;
+export = x;

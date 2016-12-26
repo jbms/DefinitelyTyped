@@ -1,2 +1,3 @@
 import { ary } from "../index";
-export = ary;
+declare const x: typeof ary;
+export = x;

@@ -1,2 +1,3 @@
 import { assign } from "../index";
-export = assign;
+declare const x: typeof assign;
+export = x;

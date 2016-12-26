@@ -1,2 +1,3 @@
 import { unescape } from "../index";
-export = unescape;
+declare const x: typeof unescape;
+export = x;

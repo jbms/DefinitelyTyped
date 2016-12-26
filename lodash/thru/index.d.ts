@@ -1,2 +1,3 @@
 import { thru } from "../index";
-export = thru;
+declare const x: typeof thru;
+export = x;

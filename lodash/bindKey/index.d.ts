@@ -1,2 +1,3 @@
 import { bindKey } from "../index";
-export = bindKey;
+declare const x: typeof bindKey;
+export = x;

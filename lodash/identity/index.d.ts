@@ -1,2 +1,3 @@
 import { identity } from "../index";
-export = identity;
+declare const x: typeof identity;
+export = x;

@@ -1,2 +1,3 @@
 import { tap } from "../index";
-export = tap;
+declare const x: typeof tap;
+export = x;

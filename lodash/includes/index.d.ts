@@ -1,2 +1,3 @@
 import { includes } from "../index";
-export = includes;
+declare const x: typeof includes;
+export = x;

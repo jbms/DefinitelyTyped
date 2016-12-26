@@ -1,2 +1,3 @@
 import { isNil } from "../index";
-export = isNil;
+declare const x: typeof isNil;
+export = x;

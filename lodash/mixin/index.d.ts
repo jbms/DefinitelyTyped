@@ -1,2 +1,3 @@
 import { mixin } from "../index";
-export = mixin;
+declare const x: typeof mixin;
+export = x;

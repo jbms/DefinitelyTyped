@@ -1,2 +1,3 @@
 import { pickBy } from "../index";
-export = pickBy;
+declare const x: typeof pickBy;
+export = x;

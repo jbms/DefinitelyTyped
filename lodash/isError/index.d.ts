@@ -1,2 +1,3 @@
 import { isError } from "../index";
-export = isError;
+declare const x: typeof isError;
+export = x;

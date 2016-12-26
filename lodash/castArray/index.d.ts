@@ -1,2 +1,3 @@
 import { castArray } from "../index";
-export = castArray;
+declare const x: typeof castArray;
+export = x;

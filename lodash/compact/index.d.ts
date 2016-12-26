@@ -1,2 +1,3 @@
 import { compact } from "../index";
-export = compact;
+declare const x: typeof compact;
+export = x;

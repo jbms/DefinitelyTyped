@@ -1,2 +1,3 @@
 import { groupBy } from "../index";
-export = groupBy;
+declare const x: typeof groupBy;
+export = x;

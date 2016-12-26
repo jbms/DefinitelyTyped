@@ -1,2 +1,3 @@
 import { omitBy } from "../index";
-export = omitBy;
+declare const x: typeof omitBy;
+export = x;

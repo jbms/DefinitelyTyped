@@ -1,2 +1,3 @@
 import { toInteger } from "../index";
-export = toInteger;
+declare const x: typeof toInteger;
+export = x;

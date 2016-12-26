@@ -1,2 +1,3 @@
 import { update } from "../index";
-export = update;
+declare const x: typeof update;
+export = x;

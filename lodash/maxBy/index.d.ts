@@ -1,2 +1,3 @@
 import { maxBy } from "../index";
-export = maxBy;
+declare const x: typeof maxBy;
+export = x;

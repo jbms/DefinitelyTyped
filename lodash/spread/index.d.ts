@@ -1,2 +1,3 @@
 import { spread } from "../index";
-export = spread;
+declare const x: typeof spread;
+export = x;

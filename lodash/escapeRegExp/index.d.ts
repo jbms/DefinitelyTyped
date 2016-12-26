@@ -1,2 +1,3 @@
 import { escapeRegExp } from "../index";
-export = escapeRegExp;
+declare const x: typeof escapeRegExp;
+export = x;

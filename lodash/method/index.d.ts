@@ -1,2 +1,3 @@
 import { method } from "../index";
-export = method;
+declare const x: typeof method;
+export = x;

@@ -1,2 +1,3 @@
 import { chunk } from "../index";
-export = chunk;
+declare const x: typeof chunk;
+export = x;

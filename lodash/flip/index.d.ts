@@ -1,2 +1,3 @@
 import { flip } from "../index";
-export = flip;
+declare const x: typeof flip;
+export = x;

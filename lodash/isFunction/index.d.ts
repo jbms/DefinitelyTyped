@@ -1,2 +1,3 @@
 import { isFunction } from "../index";
-export = isFunction;
+declare const x: typeof isFunction;
+export = x;

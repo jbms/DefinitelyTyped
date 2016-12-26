@@ -1,2 +1,3 @@
 import { indexOf } from "../index";
-export = indexOf;
+declare const x: typeof indexOf;
+export = x;

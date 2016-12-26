@@ -1,2 +1,3 @@
 import { unionWith } from "../index";
-export = unionWith;
+declare const x: typeof unionWith;
+export = x;

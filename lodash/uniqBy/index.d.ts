@@ -1,2 +1,3 @@
 import { uniqBy } from "../index";
-export = uniqBy;
+declare const x: typeof uniqBy;
+export = x;

@@ -1,2 +1,3 @@
 import { methodOf } from "../index";
-export = methodOf;
+declare const x: typeof methodOf;
+export = x;

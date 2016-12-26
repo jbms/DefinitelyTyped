@@ -1,2 +1,3 @@
 import { uniqWith } from "../index";
-export = uniqWith;
+declare const x: typeof uniqWith;
+export = x;

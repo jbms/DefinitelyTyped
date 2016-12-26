@@ -1,2 +1,3 @@
 import { isBuffer } from "../index";
-export = isBuffer;
+declare const x: typeof isBuffer;
+export = x;

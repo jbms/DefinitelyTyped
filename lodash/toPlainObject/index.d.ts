@@ -1,2 +1,3 @@
 import { toPlainObject } from "../index";
-export = toPlainObject;
+declare const x: typeof toPlainObject;
+export = x;

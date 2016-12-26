@@ -1,2 +1,3 @@
 import { split } from "../index";
-export = split;
+declare const x: typeof split;
+export = x;

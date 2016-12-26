@@ -1,2 +1,3 @@
 import { hasIn } from "../index";
-export = hasIn;
+declare const x: typeof hasIn;
+export = x;

@@ -1,2 +1,3 @@
 import { isEqualWith } from "../index";
-export = isEqualWith;
+declare const x: typeof isEqualWith;
+export = x;

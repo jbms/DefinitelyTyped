@@ -1,2 +1,3 @@
 import { attempt } from "../index";
-export = attempt;
+declare const x: typeof attempt;
+export = x;

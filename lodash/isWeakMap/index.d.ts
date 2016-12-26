@@ -1,2 +1,3 @@
 import { isWeakMap } from "../index";
-export = isWeakMap;
+declare const x: typeof isWeakMap;
+export = x;

@@ -1,2 +1,3 @@
 import { isArrayLike } from "../index";
-export = isArrayLike;
+declare const x: typeof isArrayLike;
+export = x;

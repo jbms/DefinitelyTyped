@@ -1,2 +1,3 @@
 import { forEach } from "../index";
-export = forEach;
+declare const x: typeof forEach;
+export = x;

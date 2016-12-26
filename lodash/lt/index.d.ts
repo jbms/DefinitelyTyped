@@ -1,2 +1,3 @@
 import { lt } from "../index";
-export = lt;
+declare const x: typeof lt;
+export = x;

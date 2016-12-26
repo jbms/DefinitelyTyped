@@ -1,2 +1,3 @@
 import { sortBy } from "../index";
-export = sortBy;
+declare const x: typeof sortBy;
+export = x;

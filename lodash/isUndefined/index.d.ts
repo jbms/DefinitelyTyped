@@ -1,2 +1,3 @@
 import { isUndefined } from "../index";
-export = isUndefined;
+declare const x: typeof isUndefined;
+export = x;

@@ -1,2 +1,3 @@
 import { kebabCase } from "../index";
-export = kebabCase;
+declare const x: typeof kebabCase;
+export = x;

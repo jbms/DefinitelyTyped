@@ -1,2 +1,3 @@
 import { wrap } from "../index";
-export = wrap;
+declare const x: typeof wrap;
+export = x;

@@ -1,2 +1,3 @@
 import { transform } from "../index";
-export = transform;
+declare const x: typeof transform;
+export = x;

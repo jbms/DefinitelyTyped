@@ -1,2 +1,3 @@
 import { template } from "../index";
-export = template;
+declare const x: typeof template;
+export = x;

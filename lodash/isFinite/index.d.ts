@@ -1,2 +1,3 @@
 import { isFinite } from "../index";
-export = isFinite;
+declare const x: typeof isFinite;
+export = x;

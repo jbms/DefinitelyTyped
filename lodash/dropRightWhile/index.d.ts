@@ -1,2 +1,3 @@
 import { dropRightWhile } from "../index";
-export = dropRightWhile;
+declare const x: typeof dropRightWhile;
+export = x;

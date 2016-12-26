@@ -1,2 +1,3 @@
 import { findLastKey } from "../index";
-export = findLastKey;
+declare const x: typeof findLastKey;
+export = x;

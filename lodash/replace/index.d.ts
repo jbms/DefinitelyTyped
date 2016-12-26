@@ -1,2 +1,3 @@
 import { replace } from "../index";
-export = replace;
+declare const x: typeof replace;
+export = x;

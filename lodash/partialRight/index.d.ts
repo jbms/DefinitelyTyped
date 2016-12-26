@@ -1,2 +1,3 @@
 import { partialRight } from "../index";
-export = partialRight;
+declare const x: typeof partialRight;
+export = x;

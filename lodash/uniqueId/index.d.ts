@@ -1,2 +1,3 @@
 import { uniqueId } from "../index";
-export = uniqueId;
+declare const x: typeof uniqueId;
+export = x;

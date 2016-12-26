@@ -1,2 +1,3 @@
 import { lowerCase } from "../index";
-export = lowerCase;
+declare const x: typeof lowerCase;
+export = x;

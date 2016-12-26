@@ -1,2 +1,3 @@
 import { matchesProperty } from "../index";
-export = matchesProperty;
+declare const x: typeof matchesProperty;
+export = x;

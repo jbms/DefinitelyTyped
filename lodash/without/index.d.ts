@@ -1,2 +1,3 @@
 import { without } from "../index";
-export = without;
+declare const x: typeof without;
+export = x;

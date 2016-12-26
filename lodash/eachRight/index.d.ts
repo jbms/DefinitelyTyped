@@ -1,2 +1,3 @@
 import { eachRight } from "../index";
-export = eachRight;
+declare const x: typeof eachRight;
+export = x;

@@ -1,2 +1,3 @@
 import { isNull } from "../index";
-export = isNull;
+declare const x: typeof isNull;
+export = x;

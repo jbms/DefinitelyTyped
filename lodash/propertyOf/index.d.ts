@@ -1,2 +1,3 @@
 import { propertyOf } from "../index";
-export = propertyOf;
+declare const x: typeof propertyOf;
+export = x;

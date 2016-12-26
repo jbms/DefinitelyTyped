@@ -1,2 +1,3 @@
 import { defer } from "../index";
-export = defer;
+declare const x: typeof defer;
+export = x;

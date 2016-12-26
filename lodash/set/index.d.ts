@@ -1,2 +1,3 @@
 import { set } from "../index";
-export = set;
+declare const x: typeof set;
+export = x;

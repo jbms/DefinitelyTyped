@@ -1,2 +1,3 @@
 import { defaultsDeep } from "../index";
-export = defaultsDeep;
+declare const x: typeof defaultsDeep;
+export = x;

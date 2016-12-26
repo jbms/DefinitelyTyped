@@ -1,2 +1,3 @@
 import { bind } from "../index";
-export = bind;
+declare const x: typeof bind;
+export = x;

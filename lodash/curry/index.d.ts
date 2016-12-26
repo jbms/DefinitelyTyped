@@ -1,2 +1,3 @@
 import { curry } from "../index";
-export = curry;
+declare const x: typeof curry;
+export = x;

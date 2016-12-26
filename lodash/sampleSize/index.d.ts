@@ -1,2 +1,3 @@
 import { sampleSize } from "../index";
-export = sampleSize;
+declare const x: typeof sampleSize;
+export = x;

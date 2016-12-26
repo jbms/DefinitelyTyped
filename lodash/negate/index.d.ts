@@ -1,2 +1,3 @@
 import { negate } from "../index";
-export = negate;
+declare const x: typeof negate;
+export = x;

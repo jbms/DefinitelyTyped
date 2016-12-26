@@ -1,2 +1,3 @@
 import { camelCase } from "../index";
-export = camelCase;
+declare const x: typeof camelCase;
+export = x;

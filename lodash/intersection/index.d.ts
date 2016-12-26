@@ -1,2 +1,3 @@
 import { intersection } from "../index";
-export = intersection;
+declare const x: typeof intersection;
+export = x;

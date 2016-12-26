@@ -1,2 +1,3 @@
 import { times } from "../index";
-export = times;
+declare const x: typeof times;
+export = x;

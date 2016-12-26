@@ -1,2 +1,3 @@
 import { every } from "../index";
-export = every;
+declare const x: typeof every;
+export = x;

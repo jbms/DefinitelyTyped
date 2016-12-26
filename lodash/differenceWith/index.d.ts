@@ -1,2 +1,3 @@
 import { differenceWith } from "../index";
-export = differenceWith;
+declare const x: typeof differenceWith;
+export = x;

@@ -1,2 +1,3 @@
 import { invertBy } from "../index";
-export = invertBy;
+declare const x: typeof invertBy;
+export = x;

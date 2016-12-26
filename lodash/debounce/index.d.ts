@@ -1,2 +1,3 @@
 import { debounce } from "../index";
-export = debounce;
+declare const x: typeof debounce;
+export = x;

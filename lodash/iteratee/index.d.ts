@@ -1,2 +1,3 @@
 import { iteratee } from "../index";
-export = iteratee;
+declare const x: typeof iteratee;
+export = x;

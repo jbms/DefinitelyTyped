@@ -1,2 +1,3 @@
 import { unset } from "../index";
-export = unset;
+declare const x: typeof unset;
+export = x;

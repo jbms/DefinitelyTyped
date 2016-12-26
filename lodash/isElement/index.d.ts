@@ -1,2 +1,3 @@
 import { isElement } from "../index";
-export = isElement;
+declare const x: typeof isElement;
+export = x;

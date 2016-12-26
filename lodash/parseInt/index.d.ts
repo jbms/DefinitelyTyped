@@ -1,2 +1,3 @@
 import { parseInt } from "../index";
-export = parseInt;
+declare const x: typeof parseInt;
+export = x;

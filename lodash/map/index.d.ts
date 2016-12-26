@@ -1,2 +1,3 @@
 import { map } from "../index";
-export = map;
+declare const x: typeof map;
+export = x;

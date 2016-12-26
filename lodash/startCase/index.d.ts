@@ -1,2 +1,3 @@
 import { startCase } from "../index";
-export = startCase;
+declare const x: typeof startCase;
+export = x;

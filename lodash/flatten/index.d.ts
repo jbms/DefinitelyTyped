@@ -1,2 +1,3 @@
 import { flatten } from "../index";
-export = flatten;
+declare const x: typeof flatten;
+export = x;

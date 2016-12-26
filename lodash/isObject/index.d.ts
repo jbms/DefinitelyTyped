@@ -1,2 +1,3 @@
 import { isObject } from "../index";
-export = isObject;
+declare const x: typeof isObject;
+export = x;

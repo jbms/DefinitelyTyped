@@ -1,2 +1,3 @@
 import { nthArg } from "../index";
-export = nthArg;
+declare const x: typeof nthArg;
+export = x;

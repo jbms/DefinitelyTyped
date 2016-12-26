@@ -1,2 +1,3 @@
 import { fill } from "../index";
-export = fill;
+declare const x: typeof fill;
+export = x;

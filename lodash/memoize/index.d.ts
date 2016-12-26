@@ -1,2 +1,3 @@
 import { memoize } from "../index";
-export = memoize;
+declare const x: typeof memoize;
+export = x;

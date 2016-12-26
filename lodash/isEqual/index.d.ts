@@ -1,2 +1,3 @@
 import { isEqual } from "../index";
-export = isEqual;
+declare const x: typeof isEqual;
+export = x;

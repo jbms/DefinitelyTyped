@@ -1,2 +1,3 @@
 import { rangeRight } from "../index";
-export = rangeRight;
+declare const x: typeof rangeRight;
+export = x;

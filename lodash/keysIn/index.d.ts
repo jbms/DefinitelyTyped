@@ -1,2 +1,3 @@
 import { keysIn } from "../index";
-export = keysIn;
+declare const x: typeof keysIn;
+export = x;

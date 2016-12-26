@@ -1,2 +1,3 @@
 import { padStart } from "../index";
-export = padStart;
+declare const x: typeof padStart;
+export = x;

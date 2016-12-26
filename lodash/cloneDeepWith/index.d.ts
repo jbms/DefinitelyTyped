@@ -1,2 +1,3 @@
 import { cloneDeepWith } from "../index";
-export = cloneDeepWith;
+declare const x: typeof cloneDeepWith;
+export = x;

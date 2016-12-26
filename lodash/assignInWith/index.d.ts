@@ -1,2 +1,3 @@
 import { assignInWith } from "../index";
-export = assignInWith;
+declare const x: typeof assignInWith;
+export = x;

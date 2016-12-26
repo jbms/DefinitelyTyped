@@ -1,2 +1,3 @@
 import { repeat } from "../index";
-export = repeat;
+declare const x: typeof repeat;
+export = x;

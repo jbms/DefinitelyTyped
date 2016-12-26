@@ -1,2 +1,3 @@
 import { round } from "../index";
-export = round;
+declare const x: typeof round;
+export = x;

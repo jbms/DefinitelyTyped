@@ -1,2 +1,3 @@
 import { max } from "../index";
-export = max;
+declare const x: typeof max;
+export = x;

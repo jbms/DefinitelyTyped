@@ -1,2 +1,3 @@
 import { ceil } from "../index";
-export = ceil;
+declare const x: typeof ceil;
+export = x;

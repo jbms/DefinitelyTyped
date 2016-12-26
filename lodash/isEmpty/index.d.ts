@@ -1,2 +1,3 @@
 import { isEmpty } from "../index";
-export = isEmpty;
+declare const x: typeof isEmpty;
+export = x;

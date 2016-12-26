@@ -1,2 +1,3 @@
 import { forOwn } from "../index";
-export = forOwn;
+declare const x: typeof forOwn;
+export = x;

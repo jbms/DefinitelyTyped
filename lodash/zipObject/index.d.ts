@@ -1,2 +1,3 @@
 import { zipObject } from "../index";
-export = zipObject;
+declare const x: typeof zipObject;
+export = x;

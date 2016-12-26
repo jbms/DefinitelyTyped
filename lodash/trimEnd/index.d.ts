@@ -1,2 +1,3 @@
 import { trimEnd } from "../index";
-export = trimEnd;
+declare const x: typeof trimEnd;
+export = x;

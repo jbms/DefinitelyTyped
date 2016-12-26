@@ -1,2 +1,3 @@
 import { isSymbol } from "../index";
-export = isSymbol;
+declare const x: typeof isSymbol;
+export = x;

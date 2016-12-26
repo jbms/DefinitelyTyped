@@ -1,2 +1,3 @@
 import { startsWith } from "../index";
-export = startsWith;
+declare const x: typeof startsWith;
+export = x;

@@ -1,2 +1,3 @@
 import { valuesIn } from "../index";
-export = valuesIn;
+declare const x: typeof valuesIn;
+export = x;

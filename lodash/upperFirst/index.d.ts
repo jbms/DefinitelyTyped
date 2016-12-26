@@ -1,2 +1,3 @@
 import { upperFirst } from "../index";
-export = upperFirst;
+declare const x: typeof upperFirst;
+export = x;

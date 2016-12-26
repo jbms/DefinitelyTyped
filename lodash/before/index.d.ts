@@ -1,2 +1,3 @@
 import { before } from "../index";
-export = before;
+declare const x: typeof before;
+export = x;

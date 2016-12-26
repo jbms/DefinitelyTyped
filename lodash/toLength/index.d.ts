@@ -1,2 +1,3 @@
 import { toLength } from "../index";
-export = toLength;
+declare const x: typeof toLength;
+export = x;

@@ -1,2 +1,3 @@
 import { rearg } from "../index";
-export = rearg;
+declare const x: typeof rearg;
+export = x;

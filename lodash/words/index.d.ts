@@ -1,2 +1,3 @@
 import { words } from "../index";
-export = words;
+declare const x: typeof words;
+export = x;

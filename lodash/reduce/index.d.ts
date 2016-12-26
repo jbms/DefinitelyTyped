@@ -1,2 +1,3 @@
 import { reduce } from "../index";
-export = reduce;
+declare const x: typeof reduce;
+export = x;

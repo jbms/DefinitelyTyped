@@ -1,2 +1,3 @@
 import { unzipWith } from "../index";
-export = unzipWith;
+declare const x: typeof unzipWith;
+export = x;

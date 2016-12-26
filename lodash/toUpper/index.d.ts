@@ -1,2 +1,3 @@
 import { toUpper } from "../index";
-export = toUpper;
+declare const x: typeof toUpper;
+export = x;

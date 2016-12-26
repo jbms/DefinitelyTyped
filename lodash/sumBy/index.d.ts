@@ -1,2 +1,3 @@
 import { sumBy } from "../index";
-export = sumBy;
+declare const x: typeof sumBy;
+export = x;

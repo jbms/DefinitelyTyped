@@ -1,2 +1,3 @@
 import { findKey } from "../index";
-export = findKey;
+declare const x: typeof findKey;
+export = x;

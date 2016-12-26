@@ -1,2 +1,3 @@
 import { gte } from "../index";
-export = gte;
+declare const x: typeof gte;
+export = x;

@@ -1,2 +1,3 @@
 import { now } from "../index";
-export = now;
+declare const x: typeof now;
+export = x;

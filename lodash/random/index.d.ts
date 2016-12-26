@@ -1,2 +1,3 @@
 import { random } from "../index";
-export = random;
+declare const x: typeof random;
+export = x;

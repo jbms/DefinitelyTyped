@@ -1,2 +1,3 @@
 import { isPlainObject } from "../index";
-export = isPlainObject;
+declare const x: typeof isPlainObject;
+export = x;

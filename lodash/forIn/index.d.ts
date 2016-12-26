@@ -1,2 +1,3 @@
 import { forIn } from "../index";
-export = forIn;
+declare const x: typeof forIn;
+export = x;

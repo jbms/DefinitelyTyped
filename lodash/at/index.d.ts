@@ -1,2 +1,3 @@
 import { at } from "../index";
-export = at;
+declare const x: typeof at;
+export = x;

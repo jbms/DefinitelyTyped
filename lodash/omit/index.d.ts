@@ -1,2 +1,3 @@
 import { omit } from "../index";
-export = omit;
+declare const x: typeof omit;
+export = x;

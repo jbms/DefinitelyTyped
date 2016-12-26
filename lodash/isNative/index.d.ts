@@ -1,2 +1,3 @@
 import { isNative } from "../index";
-export = isNative;
+declare const x: typeof isNative;
+export = x;

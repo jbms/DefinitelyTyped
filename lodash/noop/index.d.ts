@@ -1,2 +1,3 @@
 import { noop } from "../index";
-export = noop;
+declare const x: typeof noop;
+export = x;

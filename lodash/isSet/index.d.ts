@@ -1,2 +1,3 @@
 import { isSet } from "../index";
-export = isSet;
+declare const x: typeof isSet;
+export = x;

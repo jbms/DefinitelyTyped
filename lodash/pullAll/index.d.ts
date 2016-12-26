@@ -1,2 +1,3 @@
 import { pullAll } from "../index";
-export = pullAll;
+declare const x: typeof pullAll;
+export = x;

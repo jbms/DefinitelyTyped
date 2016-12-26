@@ -1,2 +1,3 @@
 import { clamp } from "../index";
-export = clamp;
+declare const x: typeof clamp;
+export = x;

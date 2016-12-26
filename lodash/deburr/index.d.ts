@@ -1,2 +1,3 @@
 import { deburr } from "../index";
-export = deburr;
+declare const x: typeof deburr;
+export = x;

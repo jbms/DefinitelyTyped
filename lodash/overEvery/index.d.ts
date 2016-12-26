@@ -1,2 +1,3 @@
 import { overEvery } from "../index";
-export = overEvery;
+declare const x: typeof overEvery;
+export = x;

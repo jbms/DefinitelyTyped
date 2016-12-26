@@ -1,2 +1,3 @@
 import { toPairs } from "../index";
-export = toPairs;
+declare const x: typeof toPairs;
+export = x;

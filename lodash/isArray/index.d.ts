@@ -1,2 +1,3 @@
 import { isArray } from "../index";
-export = isArray;
+declare const x: typeof isArray;
+export = x;

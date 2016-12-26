@@ -1,2 +1,3 @@
 import { isTypedArray } from "../index";
-export = isTypedArray;
+declare const x: typeof isTypedArray;
+export = x;

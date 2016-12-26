@@ -1,2 +1,3 @@
 import { isArguments } from "../index";
-export = isArguments;
+declare const x: typeof isArguments;
+export = x;

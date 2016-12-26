@@ -1,2 +1,3 @@
 import { shuffle } from "../index";
-export = shuffle;
+declare const x: typeof shuffle;
+export = x;

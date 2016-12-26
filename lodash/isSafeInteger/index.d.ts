@@ -1,2 +1,3 @@
 import { isSafeInteger } from "../index";
-export = isSafeInteger;
+declare const x: typeof isSafeInteger;
+export = x;

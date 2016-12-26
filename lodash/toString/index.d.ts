@@ -1,2 +1,3 @@
 import { toString } from "../index";
-export = toString;
+declare const x: typeof toString;
+export = x;

@@ -1,2 +1,3 @@
 import { sortedLastIndex } from "../index";
-export = sortedLastIndex;
+declare const x: typeof sortedLastIndex;
+export = x;

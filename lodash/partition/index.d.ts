@@ -1,2 +1,3 @@
 import { partition } from "../index";
-export = partition;
+declare const x: typeof partition;
+export = x;

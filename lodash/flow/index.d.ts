@@ -1,2 +1,3 @@
 import { flow } from "../index";
-export = flow;
+declare const x: typeof flow;
+export = x;

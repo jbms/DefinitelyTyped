@@ -1,2 +1,3 @@
 import { isMap } from "../index";
-export = isMap;
+declare const x: typeof isMap;
+export = x;

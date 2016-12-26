@@ -1,2 +1,3 @@
 import { findIndex } from "../index";
-export = findIndex;
+declare const x: typeof findIndex;
+export = x;

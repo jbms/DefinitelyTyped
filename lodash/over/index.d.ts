@@ -1,2 +1,3 @@
 import { over } from "../index";
-export = over;
+declare const x: typeof over;
+export = x;

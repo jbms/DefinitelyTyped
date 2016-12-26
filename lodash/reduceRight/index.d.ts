@@ -1,2 +1,3 @@
 import { reduceRight } from "../index";
-export = reduceRight;
+declare const x: typeof reduceRight;
+export = x;

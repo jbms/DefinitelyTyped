@@ -1,2 +1,3 @@
 import { eq } from "../index";
-export = eq;
+declare const x: typeof eq;
+export = x;

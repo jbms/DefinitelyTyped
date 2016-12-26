@@ -1,2 +1,3 @@
 import { floor } from "../index";
-export = floor;
+declare const x: typeof floor;
+export = x;

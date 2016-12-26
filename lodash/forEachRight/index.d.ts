@@ -1,2 +1,3 @@
 import { forEachRight } from "../index";
-export = forEachRight;
+declare const x: typeof forEachRight;
+export = x;

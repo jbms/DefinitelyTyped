@@ -1,2 +1,3 @@
 import { differenceBy } from "../index";
-export = differenceBy;
+declare const x: typeof differenceBy;
+export = x;

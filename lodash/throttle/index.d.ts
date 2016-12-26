@@ -1,2 +1,3 @@
 import { throttle } from "../index";
-export = throttle;
+declare const x: typeof throttle;
+export = x;

@@ -1,2 +1,3 @@
 import { upperCase } from "../index";
-export = upperCase;
+declare const x: typeof upperCase;
+export = x;

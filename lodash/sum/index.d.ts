@@ -1,2 +1,3 @@
 import { sum } from "../index";
-export = sum;
+declare const x: typeof sum;
+export = x;

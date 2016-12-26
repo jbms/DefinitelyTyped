@@ -1,2 +1,3 @@
 import { slice } from "../index";
-export = slice;
+declare const x: typeof slice;
+export = x;

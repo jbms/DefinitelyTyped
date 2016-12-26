@@ -1,2 +1,3 @@
 import { forOwnRight } from "../index";
-export = forOwnRight;
+declare const x: typeof forOwnRight;
+export = x;

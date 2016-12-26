@@ -1,2 +1,3 @@
 import { takeRight } from "../index";
-export = takeRight;
+declare const x: typeof takeRight;
+export = x;

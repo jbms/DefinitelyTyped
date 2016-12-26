@@ -1,2 +1,3 @@
 import { sortedUniqBy } from "../index";
-export = sortedUniqBy;
+declare const x: typeof sortedUniqBy;
+export = x;

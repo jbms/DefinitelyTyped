@@ -1,2 +1,3 @@
 import { toLower } from "../index";
-export = toLower;
+declare const x: typeof toLower;
+export = x;

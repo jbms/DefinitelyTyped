@@ -1,2 +1,3 @@
 import { remove } from "../index";
-export = remove;
+declare const x: typeof remove;
+export = x;

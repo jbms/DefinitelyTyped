@@ -1,2 +1,3 @@
 import { isNaN } from "../index";
-export = isNaN;
+declare const x: typeof isNaN;
+export = x;

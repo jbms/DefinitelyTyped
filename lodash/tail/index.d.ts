@@ -1,2 +1,3 @@
 import { tail } from "../index";
-export = tail;
+declare const x: typeof tail;
+export = x;

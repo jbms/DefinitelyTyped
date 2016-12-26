@@ -1,2 +1,3 @@
 import { constant } from "../index";
-export = constant;
+declare const x: typeof constant;
+export = x;

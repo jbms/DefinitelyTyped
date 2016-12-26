@@ -1,2 +1,3 @@
 import { unary } from "../index";
-export = unary;
+declare const x: typeof unary;
+export = x;

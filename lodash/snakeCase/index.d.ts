@@ -1,2 +1,3 @@
 import { snakeCase } from "../index";
-export = snakeCase;
+declare const x: typeof snakeCase;
+export = x;

@@ -1,2 +1,3 @@
 import { min } from "../index";
-export = min;
+declare const x: typeof min;
+export = x;

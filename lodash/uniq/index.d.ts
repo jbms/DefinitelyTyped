@@ -1,2 +1,3 @@
 import { uniq } from "../index";
-export = uniq;
+declare const x: typeof uniq;
+export = x;

@@ -1,2 +1,3 @@
 import { mergeWith } from "../index";
-export = mergeWith;
+declare const x: typeof mergeWith;
+export = x;

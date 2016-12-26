@@ -1,2 +1,3 @@
 import { overArgs } from "../index";
-export = overArgs;
+declare const x: typeof overArgs;
+export = x;

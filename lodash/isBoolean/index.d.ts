@@ -1,2 +1,3 @@
 import { isBoolean } from "../index";
-export = isBoolean;
+declare const x: typeof isBoolean;
+export = x;

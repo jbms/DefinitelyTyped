@@ -2,6 +2,7 @@
     "files": [
         "index.d.ts",
         "lodash-tests.ts",
+        "lodash-tests-es6.ts",
         "add/index.d.ts",
         "after/index.d.ts",
         "ary/index.d.ts",

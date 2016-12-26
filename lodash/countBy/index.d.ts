@@ -1,2 +1,3 @@
 import { countBy } from "../index";
-export = countBy;
+declare const x: typeof countBy;
+export = x;

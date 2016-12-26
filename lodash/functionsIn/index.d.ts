@@ -1,2 +1,3 @@
 import { functionsIn } from "../index";
-export = functionsIn;
+declare const x: typeof functionsIn;
+export = x;

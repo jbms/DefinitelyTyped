@@ -1,2 +1,3 @@
 import { runInContext } from "../index";
-export = runInContext;
+declare const x: typeof runInContext;
+export = x;

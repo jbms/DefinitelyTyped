@@ -1,2 +1,3 @@
 import { capitalize } from "../index";
-export = capitalize;
+declare const x: typeof capitalize;
+export = x;

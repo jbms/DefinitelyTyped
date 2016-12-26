@@ -1,2 +1,3 @@
 import { setWith } from "../index";
-export = setWith;
+declare const x: typeof setWith;
+export = x;

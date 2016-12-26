@@ -1,2 +1,3 @@
 import { inRange } from "../index";
-export = inRange;
+declare const x: typeof inRange;
+export = x;

@@ -1,2 +1,3 @@
 import { concat } from "../index";
-export = concat;
+declare const x: typeof concat;
+export = x;

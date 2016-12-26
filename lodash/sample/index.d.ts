@@ -1,2 +1,3 @@
 import { sample } from "../index";
-export = sample;
+declare const x: typeof sample;
+export = x;

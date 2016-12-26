@@ -1,2 +1,3 @@
 import { dropRight } from "../index";
-export = dropRight;
+declare const x: typeof dropRight;
+export = x;

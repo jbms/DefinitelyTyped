@@ -1,2 +1,3 @@
 import { extendWith } from "../index";
-export = extendWith;
+declare const x: typeof extendWith;
+export = x;

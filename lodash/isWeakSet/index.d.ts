@@ -1,2 +1,3 @@
 import { isWeakSet } from "../index";
-export = isWeakSet;
+declare const x: typeof isWeakSet;
+export = x;

@@ -1,2 +1,3 @@
 import { partial } from "../index";
-export = partial;
+declare const x: typeof partial;
+export = x;

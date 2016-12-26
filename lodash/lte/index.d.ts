@@ -1,2 +1,3 @@
 import { lte } from "../index";
-export = lte;
+declare const x: typeof lte;
+export = x;

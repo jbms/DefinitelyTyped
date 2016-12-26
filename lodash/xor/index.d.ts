@@ -1,2 +1,3 @@
 import { xor } from "../index";
-export = xor;
+declare const x: typeof xor;
+export = x;

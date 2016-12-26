@@ -1,2 +1,3 @@
 import { delay } from "../index";
-export = delay;
+declare const x: typeof delay;
+export = x;

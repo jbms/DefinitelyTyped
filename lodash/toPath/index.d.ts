@@ -1,2 +1,3 @@
 import { toPath } from "../index";
-export = toPath;
+declare const x: typeof toPath;
+export = x;

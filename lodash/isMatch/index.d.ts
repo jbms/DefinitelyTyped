@@ -1,2 +1,3 @@
 import { isMatch } from "../index";
-export = isMatch;
+declare const x: typeof isMatch;
+export = x;

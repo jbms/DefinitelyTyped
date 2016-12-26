@@ -1,2 +1,3 @@
 import { subtract } from "../index";
-export = subtract;
+declare const x: typeof subtract;
+export = x;

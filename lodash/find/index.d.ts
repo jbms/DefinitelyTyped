@@ -1,2 +1,3 @@
 import { find } from "../index";
-export = find;
+declare const x: typeof find;
+export = x;
